@@ -1,7 +1,9 @@
 # Linear Programming Solver
 
-This is an Linear Programming (LP) Solver which reads a text-based representation of a
-linear program from standard input and outputs the result of solving the LP. 
+The project is a linear programming (LP) solver written in python which reads a text-based representation of a
+linear program from standard input and outputs the result of solving the LP. The solver is implemented using the dictionary-based Simplex Method. To prevent numerical anomalies from accumulating over time and result in unwanted behavior, the program represents numerical values as fractions. The solver will solve initially infeasible LP's using Primal-Dual Methods. Moreover, the solver uses the Largest-Increase Rule when picking the entering variables for pivot operations and will use Bland’s Rule if cycling is detected.
+
+Some sample input files and corresponding output results is provided in the folder "test_cases".
 
 # Input Format
 The input format is a simple text_based encoding of a maximziation LP in standard form.  Consider the LP:
