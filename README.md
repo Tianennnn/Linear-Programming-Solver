@@ -8,7 +8,7 @@ Some sample input files and corresponding output results is provided in the fold
 # Input Format
 The input format is a simple text_based encoding of a maximziation LP in standard form.  Consider the LP:
 
-<img src="https://github.com/Tianennnn/Linear_Programming_Solver/blob/main/README%20Example%20Input.png" width="253" height="144.6">
+<img src="https://github.com/Tianennnn/Linear_Programming_Solver/blob/main/README%20Picture%201.png" width="253" height="144.6">
 
 It would be encoded as: </br>
 0.5&nbsp;&nbsp;&nbsp;&nbsp;3 </br>
