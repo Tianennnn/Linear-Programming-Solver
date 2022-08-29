@@ -1,6 +1,3 @@
-# Name: Andrew Li
-# Student number: v00969439
-
 import sys
 from fractions import Fraction
 
